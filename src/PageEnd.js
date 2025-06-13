@@ -6,7 +6,7 @@ export class PageEnd extends PageTemplate {
         super();
     }
     main() {
-        return `<main><h1>Cia yra END main </h1>  </main> `
+        return `<main><h1 class="red">Cia yra END main </h1>  </main> `
     }
 
 }

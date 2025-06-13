@@ -10,7 +10,7 @@ export class PageTemplate {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/static/css/main.css">`
+   <link rel="stylesheet" href="/css/style.css">`
     }
     header() {
         return `
@@ -20,6 +20,7 @@ export class PageTemplate {
             <a href="/start">Start</a>
             <a href="/end">End</a>
             <a href="/*error" >404</a>
+            <img src="/public/img/puslapiui_kava.webp" alt="coffe">
         </nav>
         </header>
         `};
